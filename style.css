@@ -1,0 +1,15 @@
+#left-side{
+  display: inline-block;
+  width: 250px;
+  height: 100vh;
+  background: black;
+  position: fixed;
+}
+
+#main-area{
+  display: inline-block;
+  width: 100%;
+  margin-left: 250px;
+  height: 200vh;
+  color: rgb(221, 127, 127);
+}
