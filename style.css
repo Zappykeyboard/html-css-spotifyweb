@@ -1,15 +1,47 @@
-#left-side{
-  display: inline-block;
-  width: 250px;
-  height: 100vh;
-  background: black;
-  position: fixed;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#main-area{
-  display: inline-block;
-  width: 100%;
-  margin-left: 250px;
-  height: 200vh;
-  color: rgb(221, 127, 127);
+
+
+#wrapper{
+  width: 100vw;
+  height: 100vh;
+  font-size: 40px;
+}
+
+
+#main{
+  width: 100%; 
+  height: calc(100% - 100px);
+  background-image: linear-gradient(to bottom right, yellow, black);
+  overflow: hidden;
+}
+
+#main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#left-side{
+  float:left;
+  width: 250px;
+  height: 100%;
+  background:rgba(0,0,0,0.9);
+}
+
+#right-side{
+  float:right;
+  width: calc(100% - 250px);
+  height: 100%;
+  overflow: auto;
+}
+
+
+#player{
+  background: red;
+  height: 100px;
 }
