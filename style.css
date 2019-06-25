@@ -149,9 +149,25 @@
 	bottom: -5px;
 }
 
+/*sezione album*/
+.album-container{
+  width: 90%;
+  margin: auto;
+  color: white;
+}
+.album-container .flex-container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-
-
+.album-container .album{
+  margin: 20px 10px;
+}
+.album-container img{
+  width: 150px;
+  height: 150px;
+}
 
 /*area inferiore*/
 #player{
