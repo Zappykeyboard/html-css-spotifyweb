@@ -201,7 +201,7 @@
 #player{
   background: rgb(71, 70, 70);
   height: 100px;
-  color: gray;
+  color: rgb(146, 145, 145);
 }
 
 #player .flex-container{
@@ -227,14 +227,13 @@
   height: 64px;
 }
 
+
 #controlli{
   height: 100%;
   width: 40%;
-  background: red;
 }
 
 #impostazioni {
   height: 100%;
   width: 25%;
-  background: red;
 }
