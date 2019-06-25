@@ -114,6 +114,7 @@
   background:rgba(0,0,0,0.5);
 }
 
+/*barra di navigazione superiore*/
 #navigazione{
   width: 100%;
   height: 100px;
@@ -147,7 +148,13 @@
 	position: absolute;
 	bottom: -5px;
 }
+
+
+
+
+
+/*area inferiore*/
 #player{
-  background: red;
+  background: gray;
   height: 100px;
 }
