@@ -184,13 +184,57 @@
 .album-container .album{
   margin: 20px 10px 20px 0px;
 }
+
 .album-container img{
   width: 150px;
   height: 150px;
 }
 
+.album-container .round{
+  border-radius: 100%;
+}
+
+.album-container .album-label{
+  text-align: center;
+}
 /*area inferiore*/
 #player{
-  background: gray;
+  background: rgb(71, 70, 70);
   height: 100px;
+  color: gray;
+}
+
+#player .flex-container{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#brano {
+  height: 100%;
+  width: 25%;
+}
+
+#brano .flex-container{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#brano .album-thumb {
+  width: 64px;
+  height: 64px;
+}
+
+#controlli{
+  height: 100%;
+  width: 40%;
+  background: red;
+}
+
+#impostazioni {
+  height: 100%;
+  width: 25%;
+  background: red;
 }
