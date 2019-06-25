@@ -5,13 +5,13 @@
 }
 
 @media all and (max-width: 960px){
-  .hide-mobile{
+  .hide-when-mobile{
     display: none;
   }
 }
 
 @media all and (min-width: 961px){
-  .hide-desktop{
+  .hide-when-desktop{
     display: none;
   }
 }
@@ -115,9 +115,11 @@
 }
 
 /*barra di navigazione superiore*/
-#navigazione{
-  width: 100%;
+#navigazione,
+#navigazione-mobile{
+  width: 90%;
   height: 100px;
+  margin: auto;
 }
 
 #navigazione .flex-container{
@@ -149,6 +151,24 @@
 	bottom: -5px;
 }
 
+
+/*navigazione mobile*/
+#navigazione-mobile .flex-container{
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; 
+}
+
+#navigazione-mobile .hamburger div {
+  width: 25px;
+  height: 5px;
+  background-color: white;
+  margin: 4px 0;
+  border-radius: 3px;
+}
+
+
 /*sezione album*/
 .album-container{
   width: 90%;
@@ -162,7 +182,7 @@
 }
 
 .album-container .album{
-  margin: 20px 10px;
+  margin: 20px 10px 20px 0px;
 }
 .album-container img{
   width: 150px;
