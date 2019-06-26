@@ -66,6 +66,7 @@
 #recent .label{
   margin-bottom: 10px;
   padding-left: 15px;
+  overflow: hidden;
 }
 
 #recent .nav-button{
@@ -77,6 +78,7 @@
 #left-side .nav-button{
   width: 100%;
   padding-left: 15px;
+  border-left: 3px solid rgba(0, 0, 0, 0.0)
 }
 #left-side .nav-link{
   display: block;
