@@ -94,6 +94,12 @@
   border-left: 3px solid green
 }
 
+
+#left-side .bottom #bot-hr,
+#left-side .bottom div{
+  margin: 10px 15px;
+}
+
 /*logo*/
 #brand  {
   height: 100px;
